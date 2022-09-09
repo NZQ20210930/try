@@ -5,7 +5,7 @@
     <title>tree</title>
 </head>
 <body>
-    <canvas id='d1' width="600" height="500" style="border:dashed 2px #ccc;"></canvas>
+    <canvas id='d1' width="900" height="1500" style="border:dashed 2px #ccc;"></canvas>
     <script>
     var drawtree = function (ctx,startx,starty,length,angle,depth,branchWidth){
         var rand=Math.random,
@@ -48,7 +48,7 @@
     var canvas=document.getElementById('d1');
     var ctx= canvas.getContext('2d');
     //初始化的树
-    drawtree(ctx,300,470,100,-Math.PI / 2, 12, 12);
+    drawtree(ctx,450,1200,100,-Math.PI / 2, 12, 12);
     </script>
 </body>
 </html>
